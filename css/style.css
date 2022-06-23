@@ -3,7 +3,7 @@ p {
     color: white;
 }
 
-.primary_color h1 {
+.primary_color h1 , .primary_color {
 
     color: white;
 }
@@ -13,10 +13,27 @@ p {
     color: white;
 }
 
+.footer_color {
+
+    background-color: #304A62;
+}
+
+.footer_color_2 {
+  
+    background-color: #263646;
+}
+
+
+
 header {
 
     background-color: #263646;
 
+}
+
+header a:link  {
+
+    color: white;
 }
 
 .primary_color {
@@ -39,4 +56,34 @@ header {
 
     background-color: grey;
     height: 3px;
+}
+
+.black_row {
+
+    background-color: black;
+    height: 3px;
+}
+
+
+.input-style {
+
+    width: 100%;
+}
+
+.input-style::placeholder {
+
+    color: black;
+}
+
+.input-style , .input-style:focus {
+
+    border: none;
+
+    outline: none;
+}
+
+.fs_p {
+
+    font-size: 10px;
+
 }
