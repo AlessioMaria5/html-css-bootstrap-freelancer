@@ -50,18 +50,21 @@ header a:link  {
 
     background-color: white;
     height: 3px;
+    width: 50px;
 }
 
 .grey_row {
 
     background-color: grey;
     height: 3px;
+    width: 50px;
 }
 
 .black_row {
 
     background-color: black;
     height: 3px;
+    width: 50px;
 }
 
 
@@ -92,5 +95,64 @@ header a:link  {
 
     font-size: 20px;
 
+}
 
+.s_icon {
+
+    position: relative;
+}
+
+.s_icon::after  {
+
+    content: " ";
+    position: absolute;
+    
+    border: 1px white solid;
+    border-radius: 50%;
+
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: 0;
+}
+
+.container_m {
+
+    width: 50px;
+    margin: auto;
+}
+
+@media all and (min-width:768px ) {
+
+    .container_m {
+
+        width: 100%;
+    }
+
+    h1 {
+
+        font-size: 1.5em;
+    }
+    
+}
+
+
+@media all and (max-width:576px ) {
+
+
+    h1 {
+
+        font-size: 1.2em;
+    }
+    
+}
+
+@media all and (max-width:425px ) {
+
+
+    h1 {
+
+        font-size: 0.8em;
+    }
+    
 }
