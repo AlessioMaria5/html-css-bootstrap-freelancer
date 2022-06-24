@@ -40,6 +40,17 @@ header a:link  {
 
     background-color: #00B691;
 }
+.primary_color_text {
+
+    color: #00B691;
+    text-decoration: none;
+}
+
+ a:hover.primary_color_text {
+
+    text-decoration: underline;
+    color: #00B691;
+ }
 
 .secondary_color {
 
@@ -91,7 +102,7 @@ header a:link  {
 
 }
 
-.social_icons {
+.social_icons {x
 
     font-size: 20px;
 
@@ -118,7 +129,7 @@ header a:link  {
 
 .container_m {
 
-    width: 50px;
+    width: 10%;
     margin: auto;
 }
 
